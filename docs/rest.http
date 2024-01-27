@@ -1,0 +1,15 @@
+GET http://localhost:3000
+
+###
+GET http://localhost:3000/ninjas/9
+
+
+###
+POST http://localhost:3000/ninjas
+
+Content-Type: application/json
+Accept: application/javascript
+{
+    name: "Testeeeee"
+    weapon:"stars"
+}
